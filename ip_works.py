@@ -71,5 +71,5 @@ def ip_host_and_net_info(ip_class, ip_address):
         elif ip_class == "E":
             return None
     else:
-        raise "CIDR is no provided"
+        raise "CIDR is not provided"
 
